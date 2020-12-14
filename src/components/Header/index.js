@@ -4,10 +4,10 @@ import logo from '../../assets/images.png'
 
 export default function Header() {
     return (
-        <header>
+        <header data-test='headerComponent'>
             <div className="wrap">
                 <div className="logo">
-                <img src={logo} alt="LOGO"/>
+                <img data-test="logoImg" src={logo} alt="LOGO"/>
                 </div>
             </div>
         </header>
