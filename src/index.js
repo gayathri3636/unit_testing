@@ -2,10 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import './App.scss';
-
+import {Provider} from 'react-redux'
+import {store} from './redux/store/index';
 ReactDOM.render(
-  <div className="App">
+  <Provider store={store} >
     <App />
-  </div>
+  </Provider>
 ,  document.getElementById('root')
 );
