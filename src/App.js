@@ -33,7 +33,7 @@ fetch(){
       emitEvent:this.fetch
     }
     return (
-      <div className="App">
+      <div className='App' data-test='appcomponent'>
         <Header />
         <section className="headline">
         <Headline header="Posts" desc="click the button to render posts"/>
